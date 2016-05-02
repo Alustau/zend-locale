@@ -967,7 +967,7 @@ class Zend_Locale_Data
                 'Core',
                 'File',
                 array('automatic_serialization' => true),
-                array());
+                array('cache_dir' => 'data/cache'));
         }
 
         $val = $value;
